@@ -1,0 +1,169 @@
+ /* Reset some default browser styles */
+ body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #ffffff; /* White */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #607D8B; /* Blue Grey */
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 0 auto 20px;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background: linear-gradient(to bottom, #607D8B, #455A64); /* Gradient from Blue Grey to Dark Blue Grey */
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff; /* White */
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    color: black; /* Blue */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Section styles */
+.section {
+    background-color: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Added to make the content stack */
+    align-items: center;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px; /* Increased spacing */
+    display: flex;
+    align-items: center;
+}
+
+.section h2 i {
+    margin-right: 10px;
+}
+
+
+/* Skill and project item styles */
+.card {
+    background-color: #ECEFF1; /* Light Blue Grey */
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card.card-narrow {
+max-width: 600px; /* Adjust this value as needed */
+margin-left: auto;
+margin-right: auto;
+}
+.card.card-narrower {
+max-width: 1000px; /* Adjust this value as needed */
+margin-left: auto;
+margin-right: auto;
+}
+.card:hover {
+    background-color: #f5f5f5; /* Change the background color on hover */
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+/* Projects section styles */
+.projects-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #607D8B; /* Blue Grey */
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #607D8B; /* Blue Grey */
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact-info p {
+    margin-left: 10px;
+}
+
+.exp div{
+    display : flex;
+    align-items: left;
+}
+.exp p{
+    margin-left: 5px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
